@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+ 'one one two'
+  'three four four'
+  'three five five'
+  ;   
+  gap: 10px;
+  width: 50%;
+  margin: 30px auto;
+  justify-content: center;
+  align-content: center;
+ 
+}
+
+body {
+    
+    background-color: black;
+   width: 100%
+ 
+}
+
+main div {
+
+ 
+  padding: 90px;
+   
+  
+}
+
+.orange {
+  background-color: orange;
+  color: orange;
+  grid-area: one;
+}
+
+.yellow {
+  background-color: purple;
+  color: purple;
+  grid-area: two;
+}
+
+.green {
+  background-color: green;
+  color: green;
+  grid-area: three;
+}
+
+.blue-1 {
+  background-color: blue;
+  color: blue;
+  grid-area: four;
+}
+
+.blue-2 {
+  background-color: skyblue;
+  color: skyblue;
+  grid-area: five;
+}
